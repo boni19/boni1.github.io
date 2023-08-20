@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: black;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font: 36px sans-serif;
+  padding: 20px 40px;
+  letter-spacing: 7px;
+  font-weight: bold;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.isi {
+  background-color: rgb(219, 219, 218);
+  height: 330px;
+  width: 100%   ;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 70px;
+  padding-left: 200px;
+  padding-right: 200px;
+  flex-wrap: wrap;
+}
+
+.isi h1 {
+  margin-bottom: 20px;
+}
+
+.isi p {
+  flex: auto;
+}
+
+.main {
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.copy-container h1 {
+  font: 120px sans-serif;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.copy-container h2 {
+  font: 50px Arial Regular;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.copy-container span {
+  color: yellow;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 150px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+  flex: auto;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color:#ceda27;
+  color:#889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font: 36px sans-serif;
+  padding: 20px 40px;
+  letter-spacing: 7px;
+  font-weight: bold;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  margin-right: 50px;
+}
+
